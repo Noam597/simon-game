@@ -1,0 +1,83 @@
+.game{
+    margin: 0;
+    box-sizing: border-box;
+    background: linear-gradient(lightgreen,green);
+    min-height: 100vh;
+}
+.game h1{
+    margin: 0;
+}
+
+.gameBoard{
+    position: relative;
+}
+.score{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate:  -50% -50%;
+    background-color: black;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 50%;
+    padding: 1rem;
+}
+.score-bar{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+
+
+.wrapper{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 411px;
+    height: 410px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    border: solid 2px black;
+    border-radius: 50%;
+    
+}
+
+.red{
+  
+    background-color:red ;
+    /* opacity: 0.5; */
+}
+.red.clicked{
+
+    background-color:#f78383;
+    border: 3px solid white;
+}
+.green{
+   
+    background-color:green;
+    /* opacity: 0.5; */
+}
+.green.clicked{
+    background-color:#0cb30c;
+    border: 3px solid white;
+}
+
+.blue{
+    background-color:blue ;
+    /* opacity: 0.5; */
+
+}
+.blue.clicked{
+    background-color:#7272f4 ;
+    border: 3px solid white;
+
+}
+.yellow{
+    background-color:yellow ;
+    /* opacity: 0.5; */
+}
+.yellow.clicked{
+    background-color:#f5f5c6 ;
+    border: 3px solid white;
+}
